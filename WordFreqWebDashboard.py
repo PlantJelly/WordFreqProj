@@ -6,7 +6,11 @@ from mylib import myStreamlitVisualizer as sv
 import pandas as pd
 from konlpy.tag import Okt
 
+import os
+
 # font_path = "c:/Windows/Fonts/malgun.ttf"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+font_path = os.path.join(current_dir, "Fonts", 'malgun.ttf')
 
 st.set_page_config(
     page_title="단어 빈도수 분석 웹 대시보드",

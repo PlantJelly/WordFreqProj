@@ -1,5 +1,56 @@
-streamlit
-pandas
-konlpy
-matplotlib
-wordcloud
+altair==6.0.0
+attrs==26.1.0
+blinker==1.9.0
+cachetools==7.0.5
+certifi==2026.2.25
+charset-normalizer==3.4.6
+click==8.3.1
+colorama==0.4.6
+contourpy @ file:///C:/miniconda3/conda-bld/contourpy_1763643941183/work
+cycler @ file:///C:/Users/task_176606795666152/croot/cycler_1766068071140/work
+fonttools @ file:///C:/Users/task_177425651923115/croot/fonttools_1774256594127/work
+gitdb==4.0.12
+GitPython==3.1.46
+idna==3.11
+Jinja2==3.1.6
+jpype1 @ file:///D:/bld/jpype1_1757353952254/work
+jsonschema==4.26.0
+jsonschema-specifications==2025.9.1
+kiwisolver @ file:///C:/miniconda3/conda-bld/kiwisolver_1764159361484/work
+konlpy==0.6.0
+lxml==6.0.2
+MarkupSafe==3.0.3
+matplotlib==3.10.8
+mkl-service==2.5.2
+mkl_fft @ file:///C:/miniconda3/conda-bld/mkl_fft_1761592920453/work
+mkl_random @ file:///C:/miniconda3/conda-bld/mkl_random_1761593081220/work
+narwhals==2.18.1
+numpy @ file:///C:/Users/task_177399617106190/croot/numpy_and_numpy_base_1773996245465/work/dist/numpy-2.4.3-cp314-cp314-win_amd64.whl#sha256=00b9981824e33220ec0094f15ce1fb0ee0c22ccc06d3002ed943648f8932e812
+packaging @ file:///C:/miniconda3/conda-bld/packaging_1761049098810/work
+pandas==2.3.3
+pillow @ file:///C:/Users/task_177247533086231/croot/pillow_1772475424069/work
+protobuf==6.33.6
+pyarrow==23.0.1
+pydeck==0.9.1
+pyparsing @ file:///C:/miniconda3/conda-bld/pyparsing_1763973805642/work
+PyQt6==6.10.2
+PyQt6_sip @ file:///C:/Users/task_177247662504609/croot/pyqt-split_1772477410659/work/pyqt_sip
+python-dateutil @ file:///C:/Users/dev-admin/buildout/croot/python-dateutil_1759954839763/work
+pytz==2026.1.post1
+referencing==0.37.0
+requests==2.33.1
+rpds-py==0.30.0
+setuptools==80.10.2
+sip @ file:///C:/Users/task_177080690577686/croot/sip_1770807597220/work
+six @ file:///C:/Users/dev-admin/buildout/croot/six_1759954493303/work
+smmap==5.0.3
+streamlit==1.55.0
+tenacity==9.1.4
+toml==0.10.2
+tornado @ file:///C:/Users/task_177430349855574/croot/tornado_1774303659293/work
+typing_extensions==4.15.0
+tzdata @ file:///home/task_176829656558347/croot/python-tzdata_1768296637279/work
+urllib3==2.6.3
+watchdog==6.0.0
+wheel==0.46.3
+wordcloud==1.9.6
