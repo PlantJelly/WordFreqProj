@@ -6,7 +6,7 @@ from mylib import myStreamlitVisualizer as sv
 import pandas as pd
 from konlpy.tag import Okt
 
-font_path = "c:/Windows/Fonts/malgun.ttf"
+# font_path = "c:/Windows/Fonts/malgun.ttf"
 
 st.set_page_config(
     page_title="단어 빈도수 분석 웹 대시보드",
@@ -72,8 +72,8 @@ if submitted:
 
     status.info(f'분석이 완료되었습니다 ({len(corpus):,}개의 리뷰, {counter.total():,}개의 단어)')
 
-    if freq: sv.visualize_barhgraph(counter, num_words, title, xlabel, ylabel, font_path)
-    if wc: sv.visualize_wordcloud(counter, num_wc_words, font_path)
+    if freq: sv.visualize_barhgraph(counter, num_words, title, xlabel, ylabel)
+    if wc: sv.visualize_wordcloud(counter, num_wc_words)
     if not freq and not wc:
         st.warning('빈도수 그래프 또는 워드클라우드 중 하나 이상을 선택하세요.')
         
