@@ -76,8 +76,8 @@ if submitted:
 
     status.info(f'분석이 완료되었습니다 ({len(corpus):,}개의 리뷰, {counter.total():,}개의 단어)')
 
-    if freq: sv.visualize_barhgraph(counter, num_words, title, xlabel, ylabel)
-    if wc: sv.visualize_wordcloud(counter, num_wc_words)
+    if freq: sv.visualize_barhgraph(counter, num_words, title, xlabel, ylabel, font_path)
+    if wc: sv.visualize_wordcloud(counter, num_wc_words, font_path)
     if not freq and not wc:
         st.warning('빈도수 그래프 또는 워드클라우드 중 하나 이상을 선택하세요.')
         
